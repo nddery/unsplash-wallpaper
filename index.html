@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unsplash Wallpaper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main">
+    <header>
+      <img src="https://unsplash.global.ssl.fastly.net/assets/core/logo-black-b37a09de4a228cd8fb72adbabc95931c5090611a0cae8e76f1fd077d378ec080.svg" alt="Logo black b37a09de4a228cd8fb72adbabc95931c5090611a0cae8e76f1fd077d378ec080">
+    </header>
+
+    <div class="container">
+      <button class="btn btn-outline btn--small" id="update">Update wallpaper</button>
+      <div class="every">every</div>
+      <select class="btn btn-outline btn--small" id="interval">
+        <option value="1800">30 minutes</option>
+        <option value="3600">1 hour</option>
+        <option value="21600">6 hours</option>
+        <option value="43200">12 hours</option>
+        <option value="86400">24 hours</option>
+      </select>
+      <div class="every">with query</div>
+      <div class="search-box">
+        <input type="text" id="query" placeholder="tomatoes" />
+      </div>
+    </div>
+
+    <footer>
+      <button class="btn btn-outline btn--small" id="info">?</button>
+      <button class="btn btn-outline btn--small" id="exit">Quit</button>
+    </footer>
+  </div>
+  <script src="client.js"></script>
+</body>
+</html>
