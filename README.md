@@ -1,3 +1,5 @@
+**You should consider using [Irvue - Unsplash Wallpaper](http://irvue.tumblr.com/), which has much more feature and much less bugs.**
+
 ### Unsplash Wallpaper
 Unsplash Wallpaper is a menubar application that will automatically update your wallpaper at a given interval with an image from [Unsplash](https://unsplash.com). Default interval is 24 hours.
 
